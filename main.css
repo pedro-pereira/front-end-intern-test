@@ -4,9 +4,63 @@
 /* font-family: 'Open Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
 
+body {
+  background: url("assets/04-BG.png");
+}
 
 h1 {
     font-family: 'Cookie', cursive;
     font-size: 71px;
-    color: purple;
+	font-weight: normal;
+    color: #E2EDCF;
+	text-align: center;
 }
+
+input {
+	border-radius: 10px;
+	width: 500px;
+	height: 40px; 
+}
+
+textarea {
+	border-radius: 10px;
+}
+
+input[type="submit"] {
+  font-family: 'Open Sans Bold';
+  font-size: 22px;
+  color: #FFFFFF;
+  border:none;
+  border-bottom:5px solid #4A8978;
+  border-radius: 5px;
+  background-color: #71A397;
+  
+ 
+}
+
+.grid {
+	display: grid;
+	max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+.item {
+	margin: 3px;
+	padding: '0px 0px 0px 0px';
+}
+
+#header {
+	background: #ACD0B6;
+	text-align: center;
+}
+
+::placeholder {
+	font-family: 'Open Sans', light;
+    font-size: 18px;
+	font-weight: lighter;
+	padding-top: 5px;
+	padding-left: 10px;
+	color: #3E5D5F;
+}
+	
